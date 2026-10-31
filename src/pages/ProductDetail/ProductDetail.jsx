@@ -125,3 +125,4 @@ export const ProductDetail = () => {
     </Container>
   );
 };
+export default ProductDetail;

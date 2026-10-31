@@ -16,3 +16,4 @@ export const NotificationSnackbar = ({ open, onClose, message = "¡Producto agre
     </Snackbar>
   );
 };
+export default NotificationSnackbar;

@@ -44,7 +44,7 @@ export const Home = () => {
 
   if (loading) {
     return (
-      <Box display="flex" justifyContent="center" alignItems="center" minHeight="60vh">
+      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '60vh' }}>
         <CircularProgress />
       </Box>
     );
@@ -122,7 +122,7 @@ export const Home = () => {
 
           {/* CLASE 30: Componente Pagination para control dinámico de páginas */}
           {totalPages > 1 && (
-            <Box display="flex" justifyContent="center" sx={{ mt: 4 }}>
+            <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
               <Pagination 
                 count={totalPages} 
                 page={currentPage} 
@@ -137,3 +137,5 @@ export const Home = () => {
     </Container>
   );
 };
+
+export default Home;
